@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: purple;
+}
+.container {
+    width: 75%;
+    height: 500px;
+    background: url('img/bg.jpg');
+    background-size: cover;
+    border-radius: 10%;
+    margin: 45% auto;
+    z-index: 10000;
+    
+   box-shadow: 8px 6px 5px rgba(0, 0, 0, .3);
+    
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+    
+}
+.profile img{
+    width: 100px;
+    height: 100px;
+    background: black;
+    border-radius: 50%;
+    background-size: cover;
+    border: 6px solid blue;
+    margin: 5% 0;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, .2);
+}
+
+.nama {
+    color: white;
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, .2);
+    text-align: center;
+}
+
+
+
+.blox {
+    text-align: center;
+    margin: 5% auto;
+    width: 50%;
+    height: 50px;
+    background: skyblue;
+    color: white;
+    line-height: 50px;
+    box-shadow: 8px 6px 5px rgba(0, 0, 0, .3);
+    transition: 0.9s;
+
+}
+.blox a{
+    text-decoration: none;
+    color: white;
+}
+.blox:hover {
+    background: deepskyblue;
+    width: 60%;
+    font-size: 20px;
+}
